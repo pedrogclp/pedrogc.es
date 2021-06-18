@@ -1,13 +1,13 @@
-import * as React from "react"
-import BlogLayout from "../layouts/BlogLayout"
+import * as React from "react";
+import LandingLayout from "../layouts/LandingLayout";
 
 // markup
 const IndexPage = () => {
   return (
-    <BlogLayout>
+    <LandingLayout>
       <h2>Hola 2</h2>
-    </BlogLayout>
-  )
-}
+    </LandingLayout>
+  );
+};
 
-export default IndexPage
+export default IndexPage;
